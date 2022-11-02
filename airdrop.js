@@ -1,6 +1,3 @@
-// npm init
-// npm install --save @solana/web3.js
-
 const {
   Connection,
   LAMPORTS_PER_SOL,
@@ -17,7 +14,6 @@ const connection = new Connection(clusterApiUrl("devnet"), "confirmed");
     "CGhFYpo8ApzoTskxLJMY3PVxwdxFGRcs5c7HnUBMNr6C",
     LAMPORTS_PER_SOL
   );
-
   const latestBlockHash = await connection.getLatestBlockhash();
 
   const txn = await connection.confirmTransaction({
@@ -28,7 +24,7 @@ const connection = new Connection(clusterApiUrl("devnet"), "confirmed");
 
   console.log({
     publicKey: keypair.publicKey,
-    privateKey: keypair.privateKey,
+    privateKey: keypair.secretKey,
     signature: airdropSignature,
     txn,
   });
