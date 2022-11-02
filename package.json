@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "@solana/web3.js": "^1.66.2"
+  },
+  "name": "solana",
+  "version": "1.0.0",
+  "main": "airdrop.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Saqibhussain596/Solana-Workshop.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Saqibhussain596/Solana-Workshop/issues"
+  },
+  "homepage": "https://github.com/Saqibhussain596/Solana-Workshop#readme",
+  "description": ""
+}
